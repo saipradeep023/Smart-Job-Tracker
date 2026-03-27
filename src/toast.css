@@ -1,0 +1,13 @@
+/* Minimal custom CSS for light theme toasts */
+:root {
+  --toastify-color-light: #ffffff;
+  --toastify-text-color-light: #1e293b; /* slate-800 */
+  --toastify-color-success: #10b981; /* emerald-500 */
+  --toastify-color-error: #ef4444; /* red-500 */
+}
+
+.Toastify__toast {
+  border-radius: 0.75rem !important; /* rounded-xl */
+  border: 1px solid #e2e8f0 !important; /* slate-200 */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important;
+}

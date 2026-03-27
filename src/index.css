@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Base Toast Overrides */
+:root {
+  --toastify-color-light: #ffffff;
+  --toastify-text-color-light: #0f172a;
+  --toastify-color-success: #3b82f6;
+  --toastify-color-error: #ef4444;
+  --toastify-font-family: inherit;
+}
+
+.Toastify__toast {
+  border-radius: 0.75rem !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1) !important;
+  font-size: 0.875rem !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
